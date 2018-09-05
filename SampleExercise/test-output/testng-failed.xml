@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="2" name="Failed suite [Suite]">
+  <test thread-count="5" verbose="2" name="Testing on chrome(failed)">
+    <parameter name="baseURL" value="https://react-redux-registration-login-example.stackblitz.io/login"/>
+    <parameter name="password" value="pass123"/>
+    <parameter name="firstname" value="Shikha"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="username" value="admin"/>
+    <parameter name="lastname" value="Singh"/>
+    <classes>
+      <class name="com.umbrellar.NewTest">
+        <methods>
+          <include name="register"/>
+          <include name="openBrowser"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.umbrellar.NewTest -->
+    </classes>
+  </test> <!-- Testing on chrome(failed) -->
+</suite> <!-- Failed suite [Suite] -->

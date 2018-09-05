@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="39687" started-at="2018-09-05T11:14:44Z" finished-at="2018-09-05T11:15:23Z">
+    <groups>
+    </groups>
+    <test name="Testing on chrome" duration-ms="39687" started-at="2018-09-05T11:14:44Z" finished-at="2018-09-05T11:15:23Z">
+      <class name="com.umbrellar.NewTest">
+        <test-method status="PASS" signature="openBrowser(java.lang.String, java.lang.String)[pri:0, instance:com.umbrellar.NewTest@3e6fa38a]" name="openBrowser" is-config="true" duration-ms="17893" started-at="2018-09-05T11:14:44Z" finished-at="2018-09-05T11:15:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://react-redux-registration-login-example.stackblitz.io/login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="invalidlogin(java.lang.String, java.lang.String)[pri:0, instance:com.umbrellar.NewTest@3e6fa38a]" name="invalidlogin" duration-ms="12169" started-at="2018-09-05T11:15:02Z" finished-at="2018-09-05T11:15:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidlogin -->
+        <test-method status="PASS" signature="register(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.umbrellar.NewTest@3e6fa38a]" name="register" duration-ms="9442" started-at="2018-09-05T11:15:14Z" finished-at="2018-09-05T11:15:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Shikha]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Singh]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[pass123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.umbrellar.NewTest@3e6fa38a]" name="afterClass" is-config="true" duration-ms="1" started-at="2018-09-05T11:15:23Z" finished-at="2018-09-05T11:15:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.umbrellar.NewTest -->
+    </test> <!-- Testing on chrome -->
+  </suite> <!-- Suite -->
+</testng-results>
